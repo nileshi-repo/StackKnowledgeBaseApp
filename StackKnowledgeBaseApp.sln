@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackKnowledgeBase.WebUI", "StackKnowledgeBase.WebUI\StackKnowledgeBase.WebUI.csproj", "{48C79D56-C8E8-4A2D-8EA2-A0266D128362}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C109CF75-1E10-4D89-83C5-D46D87E11E56}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{8825314A-174B-4E2F-9F1E-6D1D4C54627C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackKnowledgeBase.DataAccess", "StackKnowledgeBase.DataAccess\StackKnowledgeBase.DataAccess.csproj", "{F0BCB30D-86DA-4117-95A2-44050C940D15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{7D51CDE2-EA2F-446D-A850-2F14DA17DCD5}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\ReadMe.docx = Documentation\ReadMe.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo Screenshots", "Demo Screenshots", "{AB11DF0F-EC01-420D-BF95-55E585D1F820}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Demo Screenshots\AddSearchText.png = Documentation\Demo Screenshots\AddSearchText.png
+		Documentation\Demo Screenshots\ClickSearchWhenNoSearchText.png = Documentation\Demo Screenshots\ClickSearchWhenNoSearchText.png
+		Documentation\Demo Screenshots\ExtremelyHighPageNumber.png = Documentation\Demo Screenshots\ExtremelyHighPageNumber.png
+		Documentation\Demo Screenshots\HomePage.png = Documentation\Demo Screenshots\HomePage.png
+		Documentation\Demo Screenshots\LastPage.png = Documentation\Demo Screenshots\LastPage.png
+		Documentation\Demo Screenshots\MV_HomePage.png = Documentation\Demo Screenshots\MV_HomePage.png
+		Documentation\Demo Screenshots\MV_NoSearchText.png = Documentation\Demo Screenshots\MV_NoSearchText.png
+		Documentation\Demo Screenshots\MV_PostDetailPage.png = Documentation\Demo Screenshots\MV_PostDetailPage.png
+		Documentation\Demo Screenshots\MV_SearchResultPage.png = Documentation\Demo Screenshots\MV_SearchResultPage.png
+		Documentation\Demo Screenshots\MV_SearchResultPageBottom.png = Documentation\Demo Screenshots\MV_SearchResultPageBottom.png
+		Documentation\Demo Screenshots\NextArrowClick.png = Documentation\Demo Screenshots\NextArrowClick.png
+		Documentation\Demo Screenshots\PageNumberClick.png = Documentation\Demo Screenshots\PageNumberClick.png
+		Documentation\Demo Screenshots\PostDetailPage.png = Documentation\Demo Screenshots\PostDetailPage.png
+		Documentation\Demo Screenshots\PrevArrowClick.png = Documentation\Demo Screenshots\PrevArrowClick.png
+		Documentation\Demo Screenshots\SearchDiffText1.png = Documentation\Demo Screenshots\SearchDiffText1.png
+		Documentation\Demo Screenshots\SearchDiffText2.png = Documentation\Demo Screenshots\SearchDiffText2.png
+		Documentation\Demo Screenshots\SearchDiffText3.png = Documentation\Demo Screenshots\SearchDiffText3.png
+		Documentation\Demo Screenshots\SearchDiffText4.png = Documentation\Demo Screenshots\SearchDiffText4.png
+		Documentation\Demo Screenshots\SearchRecordDetailedView.png = Documentation\Demo Screenshots\SearchRecordDetailedView.png
+		Documentation\Demo Screenshots\SearchResultPage.png = Documentation\Demo Screenshots\SearchResultPage.png
+		Documentation\Demo Screenshots\ZeroOrNegativePageNumber.png = Documentation\Demo Screenshots\ZeroOrNegativePageNumber.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OneTimeSqlsForSmallDbSubset", "OneTimeSqlsForSmallDbSubset", "{5A8D8875-6005-423A-A93E-BD3DDBE7BF48}"
+	ProjectSection(SolutionItems) = preProject
+		OneTimeSqlForSmallDbSubset\dbo.Badges.Table_1.sql = OneTimeSqlForSmallDbSubset\dbo.Badges.Table_1.sql
+		OneTimeSqlForSmallDbSubset\dbo.Badges.Table_2.sql = OneTimeSqlForSmallDbSubset\dbo.Badges.Table_2.sql
+		OneTimeSqlForSmallDbSubset\dbo.Comments.Table.sql = OneTimeSqlForSmallDbSubset\dbo.Comments.Table.sql
+		OneTimeSqlForSmallDbSubset\dbo.LinkTypes.Table.sql = OneTimeSqlForSmallDbSubset\dbo.LinkTypes.Table.sql
+		OneTimeSqlForSmallDbSubset\dbo.PostLinks.Table.sql = OneTimeSqlForSmallDbSubset\dbo.PostLinks.Table.sql
+		OneTimeSqlForSmallDbSubset\dbo.Posts.Table.sql = OneTimeSqlForSmallDbSubset\dbo.Posts.Table.sql
+		OneTimeSqlForSmallDbSubset\dbo.PostTypes.Table.sql = OneTimeSqlForSmallDbSubset\dbo.PostTypes.Table.sql
+		OneTimeSqlForSmallDbSubset\dbo.Users.Table_1.sql = OneTimeSqlForSmallDbSubset\dbo.Users.Table_1.sql
+		OneTimeSqlForSmallDbSubset\dbo.Users.Table_2.sql = OneTimeSqlForSmallDbSubset\dbo.Users.Table_2.sql
+		OneTimeSqlForSmallDbSubset\dbo.Users.Table_3.sql = OneTimeSqlForSmallDbSubset\dbo.Users.Table_3.sql
+		OneTimeSqlForSmallDbSubset\dbo.Users.Table_4.sql = OneTimeSqlForSmallDbSubset\dbo.Users.Table_4.sql
+		OneTimeSqlForSmallDbSubset\dbo.Users.Table_5.sql = OneTimeSqlForSmallDbSubset\dbo.Users.Table_5.sql
+		OneTimeSqlForSmallDbSubset\dbo.Users.Table_6.sql = OneTimeSqlForSmallDbSubset\dbo.Users.Table_6.sql
+		OneTimeSqlForSmallDbSubset\dbo.Votes.Table.sql = OneTimeSqlForSmallDbSubset\dbo.Votes.Table.sql
+		OneTimeSqlForSmallDbSubset\dbo.VoteTypes.Table.sql = OneTimeSqlForSmallDbSubset\dbo.VoteTypes.Table.sql
+		OneTimeSqlForSmallDbSubset\OneTimeLoadDatabaseSchema.sql = OneTimeSqlForSmallDbSubset\OneTimeLoadDatabaseSchema.sql
+		OneTimeSqlForSmallDbSubset\RebuildAllIndexesDB.sql = OneTimeSqlForSmallDbSubset\RebuildAllIndexesDB.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48C79D56-C8E8-4A2D-8EA2-A0266D128362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C79D56-C8E8-4A2D-8EA2-A0266D128362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C79D56-C8E8-4A2D-8EA2-A0266D128362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C79D56-C8E8-4A2D-8EA2-A0266D128362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0BCB30D-86DA-4117-95A2-44050C940D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0BCB30D-86DA-4117-95A2-44050C940D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0BCB30D-86DA-4117-95A2-44050C940D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0BCB30D-86DA-4117-95A2-44050C940D15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48C79D56-C8E8-4A2D-8EA2-A0266D128362} = {8825314A-174B-4E2F-9F1E-6D1D4C54627C}
+		{C109CF75-1E10-4D89-83C5-D46D87E11E56} = {7D51CDE2-EA2F-446D-A850-2F14DA17DCD5}
+		{F0BCB30D-86DA-4117-95A2-44050C940D15} = {8825314A-174B-4E2F-9F1E-6D1D4C54627C}
+		{AB11DF0F-EC01-420D-BF95-55E585D1F820} = {7D51CDE2-EA2F-446D-A850-2F14DA17DCD5}
+		{5A8D8875-6005-423A-A93E-BD3DDBE7BF48} = {8825314A-174B-4E2F-9F1E-6D1D4C54627C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96E06281-38A7-468C-A8B5-83BAA81BCBA6}
+	EndGlobalSection
+EndGlobal
